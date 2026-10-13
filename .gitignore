@@ -1,0 +1,32 @@
+# --- Rust / Cargo ---
+# Build output for every Cargo project, at any depth
+target/
+
+# Backup files written by rustfmt
+**/*.rs.bk
+
+# Debug symbols on Windows (MSVC)
+*.pdb
+
+# Profiling and coverage output
+*.profraw
+*.profdata
+flamegraph.svg
+perf.data*
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Environment / secrets ---
+.env
+.env.*
